@@ -33,7 +33,7 @@ const quotes=[
     },
     {
         text: "A year from now you will wish you had started today",
-        author: 
+        author: null
     },
     {
         text: "The greater the difficulty, the more glory in surmounting it",
@@ -53,7 +53,7 @@ const quotes=[
     },
     {
         text: "Work until your bank account looks like a phone number",
-        author: 
+        author: null
     },
     {
         text: "It is only when we take chances, when our lives improve. The initial and the most difficult risk that we need to take is to become honest",
