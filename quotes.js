@@ -1,4 +1,4 @@
-const quotes=[
+const quotes = [
     {
         text: "You miss 100% of the shots you don't take",
         author: "Wayne Gretzky"
