@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&family=Ultra&display=swap');
+
+body {
+    max-width: 2000px;
+    margin:auto;
+    padding: auto;
+    border: solid;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    display: inline;
+    font-size: 4em;
+    color: #f3fadc;
+    font-family: 'Ultra', serif;
+}
+
+h2{
+    color: #385b4f;
+    font-family: 'Shrikhand', cursive;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+h3{
+    margin-top: 2px;
+    font-size: 1rem;
+    color: #010101;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+header{ 
+    max-width: 1200px;
+    margin:auto;
+    padding: 0px 15px 15px 15px;
+    background-color: #830c4f;
+    border-radius: 2px;
+}
+
+header i {
+    height: 1px;
+    width: 1px;
+    opacity: 0;
+}
+
+header button{
+    float: right;
+    margin: 25px 0px 0px 15px;
+    padding: 5px 35px;
+    border-radius: 52px;
+    background-color: #010101;
+    color: #f3fadc;
+    border: none;
+    cursor: pointer;
+}
+
+header .User{
+    border: 2px solid gray;
+    border-radius: 25px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    font-size: 0.5em;
+    padding: 0px 0px 5px 0px;
+    line-height: 20px;
+}
+
+header input[type=text]{
+    float: right;
+    width: 350px;
+    margin: 0px 0px 15px 0px;
+    border-radius: 5px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.navbar a{
+    margin: 15px 50px 0px 0px;
+    padding: 5px 11px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: #010101;
+    background-color: #f3fadc;
+}
+
+.navbar a:hover{
+    color: #f3fadc;
+    background-color: #010101;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+}
+
+.left {
+    float: left;
+    padding: 50px 15px;
+    width: 850px;
+    max-width: 85%;
+}
+
+.left p {
+    line-height: 1.5;
+    margin: 50px 2px;
+}
+
+.left-ad {
+    background-color: gray;
+    display: flex;
+    max-height: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 85px 2px;
+}
+
+.left-ad img {
+    margin:  2px;
+    padding: auto;
+    width: 100%;
+}
+
+article {
+   overflow: auto;
+   padding-bottom: 15px;
+   margin-top: 50px;
+}
+
+article img {
+    display: inline-block;
+    width: 48%;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+article div {
+    display: inline-block;
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+
+article .author-name {
+    display: inline;
+    border-right: 2px solid #010101;
+    padding-right: 5px;
+    margin-right: 15px;
+    font-weight: normal;
+    font-size: .8rem;
+}
+
+article span {
+    font-weight: normal;
+    font-style: italic;
+    font-size: .8rem;
+}
+
+.right {
+    float: right;
+    padding: 5px;
+    width: 350px;
+    max-width: 18%;
+}
+
+.right-ad {
+    background-color: gray;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 20px;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    border-radius: 5px;
+    height: 550px;
+}
+
+.right-ad img {
+    width: 185px; 
+}
+
+
+footer{
+    max-width: 2000px;
+    margin: 100px auto auto auto;
+    padding: 15px 150px;
+    background-color: #f3fadc;
+    clear: both;
+}
+
+footer h2{
+    display: inline;
+    font-size: 2rem;
+    color: #010101;
+    padding-right: 8px;
+}
+
+footer h3{
+    margin-bottom: 2px;
+}
+
+footer span{
+    font-style: italic;
+}
+
+.footer-info {
+    display: inline-block;
+}
+
+.footer-info ul{
+    list-style-type: none;
+    padding: 2px 15px 2px 5px;
+    margin-top: 2px;
+    line-height: 1.5;
+}
+
+.contact {
+    display: inline-block;
+    height: 55px;
+    padding: 5px;
+    margin-left: 500px;
+}
+
+.socials {
+    margin: 2px;
+}
+
+.socials button {
+    margin: 2px;
+    padding: 5px 15px;
+    border-radius: 52px;
+    background-color: #010101;
+    color: #f3fadc;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1180px) {
+    
+    body {
+    max-width: 1180px;
+    margin:auto;
+    padding: auto;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-weight: bold;
+    }
+    
+    h1 {
+        font-size: 3.1rem;
+        display: inline-block;
+        width: 75%;
+        padding-left: 5px;
+        margin: 2px 50px 2px 2px;
+        
+    }
+    
+    header {
+        max-width: 1180px;
+    }
+    
+    header i {
+        height: 30px;
+        width: 30px;
+        font-size: 1.8rem;
+        opacity: 100;
+        padding-right: 15px;
+        cursor: pointer;
+    }
+    
+    header button {
+        float: none;
+        display: inline-block;
+        padding: 5px 15px;
+        margin: 5px 5px;
+    }
+    
+    header .User{
+        border-radius: 47px;
+        height: 47px;
+        width: 47px;
+        padding: 2px 0px 5px 0px;
+    }
+    
+    header input[type=text]{
+        margin: 15px 0px 15px 0px;
+        height: 25px;
+    }
+    
+    header .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    .left {
+        float: none;
+        padding: 50px 25px;
+    }
+    
+    .right {
+        display: none;
+    }
+    
+    footer {
+    max-width: 1180px;
+    margin: 100px auto auto auto;
+    padding: 15px 150px;
+    background-color: #f3fadc; 
+}
+    
+    .footer-info {
+        padding-top: 20px;
+    }
+    
+    footer h3 {
+        float: none;
+    }
+    
+    .contact {
+        display: block;
+        margin: 2px;
+    }
+    
+}
+    
+@media screen and (min-width: 280px) and (max-width: 550px) {
+    
+    body {
+    max-width: 550px;
+    margin:auto;
+    padding: auto;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-weight: bold;
+    }
+    
+    h1 {
+        font-size: 2.8rem;
+        display: inline-block;
+        width: 80%;
+        margin: 2px;
+    }
+    
+    header {
+        max-width: 550px;
+    }
+    
+    header i {
+        height: 25px;
+        width: 25px;
+        font-size: 1.3rem;
+        opacity: 100;
+        padding-right: 2px;
+        cursor: pointer;
+    }
+
+    header button {
+        float: none;
+        display: inline-block;
+        padding: 5px 15px;
+        margin: 5px 5px;
+    }
+    
+    header .User{
+        border-radius: 35px;
+        height: 35px;
+        width: 35px;
+    }
+    
+    header input[type=text]{
+        margin: 15px 0px 15px 0px;
+        height: 25px;
+        width: 100%;
+    }
+    
+    header .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    article {
+        display: flex;
+        flex-flow: column;
+    }
+    
+    article img {
+        width: 100%;
+    }
+    
+    article div {
+        width: 100%;
+    }
+    
+    footer {
+    max-width: 550px;
+    margin: 100px auto auto auto;
+    padding: 15px 50px;
+    background-color: #f3fadc;
+}
+    
+}
