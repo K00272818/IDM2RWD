@@ -138,11 +138,11 @@ main a:hover {
     color: #f3fadc;
 }
 
-.top .article1 {background-image: url(../images/CyberPunk.jpg);}
-.top .article2 {background-image: url(../images/Switch.jpg);}
-.top .article3 {background-image: url(../images/MarioOdyssey.jpg);}
-.top .article4 {background-image: url(../images/Witcher3.jpg);}
-.top .article5 {background-image: url(../images/Controller.jpg);}
+.top .article1 {background-image: url(CyberPunk.jpg);}
+.top .article2 {background-image: url(Switch.jpg);}
+.top .article3 {background-image: url(MarioOdyssey.jpg);}
+.top .article4 {background-image: url(Witcher3.jpg);}
+.top .article5 {background-image: url(Controller.jpg);}
     
 
 .top article:hover{
@@ -152,11 +152,11 @@ main a:hover {
 }
 .top .article1:hover {
     font-size: 1.8rem;
-    background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(../images/CyberPunk.jpg);}
-.top .article2:hover {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(../images/Switch.jpg);}
-.top .article3:hover {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(../images/MarioOdyssey.jpg);}
-.top .article4:hover {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(../images/Witcher3.jpg);}
-.top .article5:hover {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(../images/Controller.jpg);}
+    background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(CyberPunk.jpg);}
+.top .article2:hover {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(Switch.jpg);}
+.top .article3:hover {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(MarioOdyssey.jpg);}
+.top .article4:hover {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(Witcher3.jpg);}
+.top .article5:hover {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(Controller.jpg);}
 
 .popular .article1 {grid-area: article1;}
 .popular .article2 {grid-area: article2;}
@@ -190,10 +190,10 @@ main a:hover {
     color: #f3fadc;
 }
 
-.popular .article1 {background-image: url(../images/XenoBladeChron3.jpg);}
-.popular .article2 {background-image: url(../images/Witcher3.jpg);}
-.popular .article3 {background-image: url(../images/Controller.jpg);}
-.popular .article4 {background-image: url(../images/Switch.jpg);} 
+.popular .article1 {background-image: url(XenoBladeChron3.jpg);}
+.popular .article2 {background-image: url(Witcher3.jpg);}
+.popular .article3 {background-image: url(Controller.jpg);}
+.popular .article4 {background-image: url(Switch.jpg);} 
 
 .popular article:hover{
     font-size: 1.5rem;
@@ -202,10 +202,10 @@ main a:hover {
 }
 .popular .article1:hover {
     font-size: 1.8rem;
-    background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(../images/XenoBladeChron3.jpg);}
-.popular .article2:hover {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(../images/Witcher3.jpg);}
-.popular .article3:hover {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(../images/Controller.jpg);}
-.popular .article4:hover {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(../images/Switch.jpg);}
+    background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(XenoBladeChron3.jpg);}
+.popular .article2:hover {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(Witcher3.jpg);}
+.popular .article3:hover {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(Controller.jpg);}
+.popular .article4:hover {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(Switch.jpg);}
 
 .videos-background{
     background-color: #385b4f;
@@ -270,19 +270,19 @@ main a:hover {
     cursor: pointer;
 }
 
-.reviews .article1 {background-image: url(../images/MarioOdyssey.jpg);}
-.reviews .article2 {background-image: url(../images/Cuphead.jpg);}
-.reviews .article3 {background-image: url(../images/MarioOdyssey.jpg);}
-.reviews .article4 {background-image: url(../images/Cuphead.jpg);}
+.reviews .article1 {background-image: url(MarioOdyssey.jpg);}
+.reviews .article2 {background-image: url(Cuphead.jpg);}
+.reviews .article3 {background-image: url(MarioOdyssey.jpg);}
+.reviews .article4 {background-image: url(Cuphead.jpg);}
 
 .reviews article:hover {
     transition: .5s;
     font-size: 1.5rem;
 }
-.reviews .article1:hover {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/MarioOdyssey.jpg);}
-.reviews .article2:hover {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/Cuphead.jpg);}
-.reviews .article3:hover {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/MarioOdyssey.jpg);}
-.reviews .article4:hover {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/Cuphead.jpg);}
+.reviews .article1:hover {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(MarioOdyssey.jpg);}
+.reviews .article2:hover {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(Cuphead.jpg);}
+.reviews .article3:hover {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(MarioOdyssey.jpg);}
+.reviews .article4:hover {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(Cuphead.jpg);}
 
 .reviews span {
     border: 2px solid #010101;
@@ -345,10 +345,10 @@ main a:hover {
     cursor: pointer;
 }
 
-.tips-guides .article1 {background-image: url(../images/MarioOdyssey.jpg);}
-.tips-guides .article2 {background-image: url(../images/Cuphead.jpg);}
-.tips-guides .article3 {background-image: url(../images/MarioOdyssey.jpg);}
-.tips-guides .article4 {background-image: url(../images/Cuphead.jpg);}
+.tips-guides .article1 {background-image: url(MarioOdyssey.jpg);}
+.tips-guides .article2 {background-image: url(Cuphead.jpg);}
+.tips-guides .article3 {background-image: url(MarioOdyssey.jpg);}
+.tips-guides .article4 {background-image: url(Cuphead.jpg);}
 
 .tips-guides article:hover {
     transition: .5s;
@@ -356,10 +356,10 @@ main a:hover {
     color: rgba(250, 250, 220, 1);
 }
 
-.tips-guides .article1:hover {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/MarioOdyssey.jpg);}
-.tips-guides .article2:hover {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/Cuphead.jpg);}
-.tips-guides .article3:hover {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/MarioOdyssey.jpg);}
-.tips-guides .article4:hover {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/Cuphead.jpg);}
+.tips-guides .article1:hover {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(MarioOdyssey.jpg);}
+.tips-guides .article2:hover {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(Cuphead.jpg);}
+.tips-guides .article3:hover {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(MarioOdyssey.jpg);}
+.tips-guides .article4:hover {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(Cuphead.jpg);}
 
 .ourfavourites {
     max-width: 1200px;
@@ -384,7 +384,7 @@ main a:hover {
 
 .ourfavourites article:hover {
     transition: .5s;
-    background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/Controller.jpg);
+    background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(Controller.jpg);
     font-size: 1.5rem;
     color: rgba(250, 250, 220, 1);
 }
@@ -526,10 +526,10 @@ footer span{
             "article3 article4";   
 }
     
-    .reviews .article1 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.25)), url(../images/MarioOdyssey.jpg)}
-    .reviews .article2 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.25)), url(../images/Cuphead.jpg)}
-    .reviews .article3 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.25)), url(../images/MarioOdyssey.jpg)}
-    .reviews .article4 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.25)), url(../images/Cuphead.jpg)}
+    .reviews .article1 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.25)), url(MarioOdyssey.jpg)}
+    .reviews .article2 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.25)), url(Cuphead.jpg)}
+    .reviews .article3 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.25)), url(MarioOdyssey.jpg)}
+    .reviews .article4 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.25)), url(Cuphead.jpg)}
     
     .tips-guides {
         max-width: 1180px;
@@ -551,10 +551,10 @@ footer span{
         padding: 15px 5px;
 }
     
-    .tips-guides .article1 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/MarioOdyssey.jpg)}
-    .tips-guides .article2 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/Cuphead.jpg)}
-    .tips-guides .article3 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/MarioOdyssey.jpg)}
-    .tips-guides .article4 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/Cuphead.jpg)}
+    .tips-guides .article1 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(MarioOdyssey.jpg)}
+    .tips-guides .article2 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(Cuphead.jpg)}
+    .tips-guides .article3 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(MarioOdyssey.jpg)}
+    .tips-guides .article4 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(Cuphead.jpg)}
     
     .ourfavourites {
         max-width: 1180px;
@@ -566,7 +566,7 @@ footer span{
 }
     
     .ourfavourites article {
-        background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/Controller.jpg);
+        background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(Controller.jpg);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -695,11 +695,11 @@ footer span{
     .top .article1 {
         align-items: flex-end;
         font-size: 1.5em;
-        background-image: linear-gradient(to top, rgba(255, 220, 49, 0.87), rgba(215, 213, 115, 0.47)), url(../images/CyberPunk.jpg);}
-    .top .article2 {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(../images/Switch.jpg);}
-    .top .article3 {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(../images/MarioOdyssey.jpg);}
-    .top .article4 {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(../images/Witcher3.jpg);}
-    .top .article5 {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(../images/Controller.jpg);}
+        background-image: linear-gradient(to top, rgba(255, 220, 49, 0.87), rgba(215, 213, 115, 0.47)), url(CyberPunk.jpg);}
+    .top .article2 {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(Switch.jpg);}
+    .top .article3 {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(MarioOdyssey.jpg);}
+    .top .article4 {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(Witcher3.jpg);}
+    .top .article5 {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(Controller.jpg);}
     
     .popular {
         max-width: 550px;
@@ -732,10 +732,10 @@ footer span{
     .popular .article1 {
         align-items: flex-end;
         font-size: 1.5em;
-        background-image: linear-gradient(to top, rgba(255, 220, 49, 0.87), rgba(215, 213, 115, 0.47)), url(../images/XenoBladeChron3.jpg);}
-    .popular .article2 {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(../images/Witcher3.jpg);}
-    .popular .article3 {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(../images/Controller.jpg);}
-    .popular .article4 {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(../images/Switch.jpg);}
+        background-image: linear-gradient(to top, rgba(255, 220, 49, 0.87), rgba(215, 213, 115, 0.47)), url(XenoBladeChron3.jpg);}
+    .popular .article2 {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(Witcher3.jpg);}
+    .popular .article3 {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(Controller.jpg);}
+    .popular .article4 {background-image: linear-gradient(to top, rgba(255, 220, 49, 1), rgba(215, 213, 115, 0.77)), url(Switch.jpg);}
     
     
 
@@ -770,10 +770,10 @@ footer span{
         justify-content: space-between;
 }
     
-    .reviews .article1 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.25)), url(../images/MarioOdyssey.jpg)}
-    .reviews .article2 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.25)), url(../images/Cuphead.jpg)}
-    .reviews .article3 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.25)), url(../images/MarioOdyssey.jpg)}
-    .reviews .article4 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.25)), url(../images/Cuphead.jpg)}
+    .reviews .article1 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.25)), url(MarioOdyssey.jpg)}
+    .reviews .article2 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.25)), url(Cuphead.jpg)}
+    .reviews .article3 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.25)), url(MarioOdyssey.jpg)}
+    .reviews .article4 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.25)), url(Cuphead.jpg)}
     
     .gamingdeals {
         max-width: 470px;
@@ -804,10 +804,10 @@ footer span{
         padding: 15px 2px;
 }
     
-    .tips-guides .article1 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/MarioOdyssey.jpg)}
-    .tips-guides .article2 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/Cuphead.jpg)}
-    .tips-guides .article3 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/MarioOdyssey.jpg)}
-    .tips-guides .article4 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/Cuphead.jpg)}
+    .tips-guides .article1 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(MarioOdyssey.jpg)}
+    .tips-guides .article2 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(Cuphead.jpg)}
+    .tips-guides .article3 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(MarioOdyssey.jpg)}
+    .tips-guides .article4 {background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(Cuphead.jpg)}
 
 
     .ourfavourites {
@@ -820,7 +820,7 @@ footer span{
 }
     
     .ourfavourites article {
-        background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(../images/Controller.jpg);
+        background-image: linear-gradient(to bottom, rgba(131, 12, 79, 1), rgba(104, 10, 25, 0.61)), url(Controller.jpg);
         display: flex;
         align-items: center;
         justify-content: center;
